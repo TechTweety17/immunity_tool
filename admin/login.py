@@ -9,7 +9,7 @@ class Window(QMainWindow):
         super(Window, self).__init__()
         self._new_window = None
         self.win = QWidget() 
-        self.setWindowTitle("Team jarvis") 
+        self.setWindowTitle("IMMUNITY TOOL") 
         self.textName = QLineEdit(self.win)
         self.textPass = QLineEdit(self.win)
         self.buttonLogin = QPushButton('Login', self.win)
